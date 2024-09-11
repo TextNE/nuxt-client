@@ -1,0 +1,19 @@
+{
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "features": {
+        "ghcr.io/devcontainers/features/docker-outside-of-docker:1": {}
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "GitHub.copilot"
+            ],
+            "settings": {
+                "editor.formatOnSave": false, // alt+shift+f 
+                "files.autoSave": "off"
+            }
+        }
+    }
+}
